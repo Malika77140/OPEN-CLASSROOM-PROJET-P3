@@ -1,0 +1,26 @@
+body {
+    max-width: 1400px;
+    margin: auto;
+    font-family: 'Raleway', serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    padding: 8px 64px;
+    margin: 1rem;
+}
