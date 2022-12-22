@@ -1,5 +1,5 @@
 body {
-    max-width: 1400px;
+    max-width: 87.5rem;
     margin: auto;
     font-family: 'Raleway', serif;
 }
@@ -12,7 +12,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 0;
+    padding: 0.5rem 0;
 }
 
 .menu {
@@ -21,6 +21,6 @@ ul {
 }
 
 .menu-item {
-    padding: 8px 64px;
+    padding: 0.5rem 4rem;
     margin: 1rem;
 }
