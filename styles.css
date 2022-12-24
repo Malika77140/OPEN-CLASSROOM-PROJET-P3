@@ -86,22 +86,51 @@ input[type="checkbox"]:checked + label {
 
 .hebergements-container {
 	display: flex;
-	flex-wrap: wrap;
-	width: 55rem;
+	gap: 1.5rem;
+}
+
+.hebergements-list-wrapper {
+	margin-top: 1.5rem;
 	background-color: #F2F2F2;
-	margin-right: 2.5rem;
+	max-width: 55.5rem;
+	padding: 1.5rem 2.5rem;
+	border-radius: 2rem;
+}
+
+.hebergements-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
 }
 
 .hebergement-card {
 	padding: 0.5rem;
 	background-color: white;
-	margin: 1rem;
 	border-radius: 1rem;
+}
+
+.hebergements-populaire {
+	display: flex;
+	gap: 1rem;
+	margin-bottom: 1rem;
 }
 
 .img-radius {
   border-top-left-radius: 0.5rem;
 	border-top-right-radius: 0.5rem;
+}
+
+.aside-img-radius {
+  border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+}
+
+.star {
+  color: #0065FC;
+}
+
+.star-disabled {
+	color: #F2F2F2
 }
 
 .aside-section {
