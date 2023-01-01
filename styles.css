@@ -142,4 +142,24 @@ input[type="checkbox"]:checked + label {
  background-color: #F2F2F2;
  width: 26.25rem;
 }
+
+.activites-container {
+	display: flex;
+	gap: 3rem;
+	margin-bottom: 1rem;
+}
+
+.activite-card {
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 1.25rem;
+}
+
+.activite-card img {
+	border-top-left-radius: 1.25rem;
+	border-top-right-radius: 1.25rem;
+}
+
+.activite-card h4 {
+	padding-left: 1.25rem
+;}
   
