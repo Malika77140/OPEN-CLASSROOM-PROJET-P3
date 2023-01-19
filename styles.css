@@ -6,6 +6,8 @@ body {
 
 ul {
   list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 input[type="checkbox"] {
@@ -30,7 +32,6 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0.5rem 0;
 }
 
 .menu {
@@ -39,8 +40,12 @@ a {
 }
 
 .menu-item {
-	padding: 0.5rem 4rem;
-	margin: 1rem;
+	padding: 2rem 4rem;
+}
+
+.active {
+	color: #0065FC;
+	border-top: 0.125rem solid #0065FC;
 }
 
 .margin-container {
@@ -86,7 +91,7 @@ input[type="checkbox"] + label {
 }
 
 input[type="checkbox"]:checked + label {
-	background-color: #DEEBFF; 
+	background-color: #DEEBFF;
 }
 
 .hebergements-container {
@@ -120,6 +125,12 @@ input[type="checkbox"]:checked + label {
 	margin-bottom: 1rem;
 }
 
+.hebergements-populaire-title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
 .img-radius {
   border-top-left-radius: 0.5rem;
 	border-top-right-radius: 0.5rem;
@@ -130,7 +141,7 @@ input[type="checkbox"]:checked + label {
 	border-bottom-left-radius: 0.5rem;
 }
 
-.star {
+.icon-active {
   color: #0065FC;
 }
 
@@ -160,6 +171,23 @@ input[type="checkbox"]:checked + label {
 }
 
 .activite-card h4 {
-	padding-left: 1.25rem
-;}
-  
+	padding-left: 1.25rem;
+}
+
+.footer {
+	margin-top: 3.813rem;
+	background-color: #F2F2F2;
+	display: flex;
+	gap: 12rem;
+	padding: 2.5rem;
+}
+
+.footer h4 {
+	font-weight: 700;
+	margin: 0;
+}
+
+.footer ul {
+	margin-top: 1rem;
+	line-height: 1.75rem;
+}
