@@ -1,8 +1,3 @@
-<<<<<<< Updated upstream
-@media screen and (max-width: 992px) {
- .hebergements-container {
-	 display: flex;
-=======
 @media only screen and (max-width: 768px){
  .hebergements-container {
    display: flex;
@@ -13,7 +8,6 @@
 @media only screen and (min-width: 769px) and (max-width: 992px)  {
  .hebergements-container {
    display: flex;
->>>>>>> Stashed changes
 	 flex-direction: column;
  }
 
@@ -23,20 +17,13 @@
  }
 }
 
-<<<<<<< Updated upstream
 body {
 	margin: auto;
 	font-family: 'Raleway', serif;
 }
-=======
-
->>>>>>> Stashed changes
 
 main {
 	max-width: 87.5rem;
-}
-main {
-margin-inline: auto;
 }
 
 ul {
